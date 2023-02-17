@@ -1,10 +1,11 @@
 #' @title A helper function generated for the Dire Straits Palette
 #'
-#' @description A helper function that will be used in the color scales.
+#' @description A helper function that is used in the color scales.
 #'
-#' @param palette Select a color palette from Dire Straits album covers.
+#' @param palette The color palette from Dire Straits album covers.
 #'
-#' @param direction Select the direction of the color order.
+#' @param direction Sets the order of colors in the scale. If 1, the default, colors are order as appeared in the palette.
+#'    If -1, the order of colors is reversed.
 #'
 #' @return direstraits_palette_gen
 #'

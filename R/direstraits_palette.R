@@ -4,7 +4,7 @@
 #'    It allows us to select one of the available palettes. The function returns a vector
 #'    with the hex codes of the selected palette.
 #'
-#' @param palette The name of color palette from Dire Straits album covers.
+#' @param palette The color palette from Dire Straits album covers.
 #'
 #'    The list of available palettes includes: "on_the_night", "so_far_away"
 #'    "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits",

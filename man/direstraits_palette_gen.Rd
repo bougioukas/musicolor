@@ -7,13 +7,14 @@
 direstraits_palette_gen(palette = "money_for_nothing", direction = 1)
 }
 \arguments{
-\item{palette}{Select a color palette from Dire Straits album covers.}
+\item{palette}{The color palette from Dire Straits album covers.}
 
-\item{direction}{Select the direction of the color order.}
+\item{direction}{Sets the order of colors in the scale. If 1, the default, colors are order as appeared in the palette.
+If -1, the order of colors is reversed.}
 }
 \value{
 direstraits_palette_gen
 }
 \description{
-A helper function that will be used in the color scales.
+A helper function that is used in the color scales.
 }

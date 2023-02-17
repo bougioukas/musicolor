@@ -7,7 +7,7 @@
 direstraits_palette(palette = "money_for_nothing", ...)
 }
 \arguments{
-\item{palette}{The name of color palette from Dire Straits album covers.
+\item{palette}{The color palette from Dire Straits album covers.
 
    The list of available palettes includes: "on_the_night", "so_far_away"
    "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits",
