@@ -1,5 +1,5 @@
 # musicolor
-Color scales to be used in ggplot generated from music album covers
+Color scales generated from music album covers ready to be used in ggplot 
 
 
 ## Overview
