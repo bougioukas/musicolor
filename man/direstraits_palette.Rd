@@ -4,10 +4,12 @@
 \alias{direstraits_palette}
 \title{Dire Straits Palette}
 \usage{
-direstraits_palette(palette = "money_for_nothing")
+direstraits_palette(palette = "money_for_nothing", ...)
 }
 \arguments{
 \item{palette}{Select a color palette from dire straits album covers}
+
+\item{...}{More arguments}
 }
 \value{
 direstraits_palette

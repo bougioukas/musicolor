@@ -4,12 +4,14 @@
 #'
 #' @param palette Select a color palette from dire straits album covers
 #'
+#' @param ... More arguments
+#'
 #' @return direstraits_palette
 #'
 #' @export
 
 
-direstraits_palette <- function(palette = "money_for_nothing") {
+direstraits_palette <- function(palette = "money_for_nothing", ...) {
 
   direstraits_palettes <- list(
 
