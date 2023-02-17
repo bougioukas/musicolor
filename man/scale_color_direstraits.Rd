@@ -6,9 +6,9 @@
 \alias{scale_fill_direstraits}
 \title{Create ggplot scale for color based on Dire Straits album covers}
 \usage{
-scale_colour_direstraits(palette = "money_for_nothing", direction = 1, ...)
-
 scale_color_direstraits(palette = "money_for_nothing", direction = 1, ...)
+
+scale_colour_direstraits(palette = "money_for_nothing", direction = 1, ...)
 
 scale_fill_direstraits(palette = "money_for_nothing", direction = 1, ...)
 }
@@ -20,9 +20,9 @@ scale_fill_direstraits(palette = "money_for_nothing", direction = 1, ...)
 \item{...}{More arguments}
 }
 \value{
-scale_colour_direstraits
-
 scale_color_direstraits
+
+scale_colour_direstraits
 
 scale_fill_direstraits
 }
@@ -30,9 +30,9 @@ scale_fill_direstraits
 Create ggplot scale color for Dire Straits.
 }
 \details{
-colour palette from dire straits
-
 color palette from dire straits
+
+colour palette from dire straits
 
 fill palette from dire straits
 }

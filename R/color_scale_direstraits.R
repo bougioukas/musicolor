@@ -8,9 +8,9 @@
 #'
 #' @param ... More arguments
 #'
-#' @return scale_colour_direstraits
-#'
 #' @return scale_color_direstraits
+#'
+#' @return scale_colour_direstraits
 #'
 #' @return scale_fill_direstraits
 #'
@@ -18,10 +18,10 @@
 #'
 #' @rdname scale_color_direstraits
 #'
-#' @details colour palette from dire straits
+#' @details color palette from dire straits
 #'
 #' @export
-scale_colour_direstraits <- function(palette = "money_for_nothing", direction = 1, ...) {
+scale_color_direstraits <- function(palette = "money_for_nothing", direction = 1, ...) {
 
   ggplot2::discrete_scale(
     "colour", "direstraits",
@@ -33,10 +33,11 @@ scale_colour_direstraits <- function(palette = "money_for_nothing", direction = 
 
 #' @rdname scale_color_direstraits
 #'
-#' @details color palette from dire straits
+#' @details colour palette from dire straits
 #'
 #' @export
-scale_color_direstraits <- function(palette = "money_for_nothing", direction = 1, ...) {
+
+scale_colour_direstraits <- function(palette = "money_for_nothing", direction = 1, ...) {
 
   ggplot2::discrete_scale(
     "colour", "direstraits",
