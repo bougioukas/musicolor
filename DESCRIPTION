@@ -1,0 +1,13 @@
+Package: musicolor
+Type: Package
+Title: Includes color scales with palettes generated from album covers
+Version: 0.1.0
+Author: Konstantinos I. Bougioukas
+Maintainer: Konstantinos I. Bougioukas <mpougioukas@auth.gr>
+Description: Includes color scales functions based on the color palettes generated from music album covers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2
+RoxygenNote: 7.2.3
