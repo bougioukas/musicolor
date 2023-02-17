@@ -2,20 +2,18 @@
 % Please edit documentation in R/direstraits_palette_gen.R
 \name{direstraits_palette_gen}
 \alias{direstraits_palette_gen}
-\title{Generate the palette}
+\title{A helper function generated for the Dire Straits Palette}
 \usage{
-direstraits_palette_gen(palette = "money_for_nothing", direction = 1, ...)
+direstraits_palette_gen(palette = "money_for_nothing", direction = 1)
 }
 \arguments{
-\item{palette}{Select a color palette from dire straits album covers}
+\item{palette}{Select a color palette from Dire Straits album covers.}
 
-\item{direction}{Select the direction of the color order}
-
-\item{...}{More arguments}
+\item{direction}{Select the direction of the color order.}
 }
 \value{
 direstraits_palette_gen
 }
 \description{
-Create a color palette from Dire Straits album covers
+A helper function that will be used in the color scales.
 }

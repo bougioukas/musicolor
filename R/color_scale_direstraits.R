@@ -1,12 +1,18 @@
-#' Color scales based on Dire Straits album covers
+#' Color scales functions for the Dire Straits
 #'
-#' Color scales based on Dire Straits album covers.
+#' Color scales functions for the Dire Straits palettes.
 #'
-#' @param palette Select a color palette from dire straits album covers
+#' @param palette The color palette from Dire Straits album covers.
 #'
-#' @param direction Select the direction of the color order
+#'    The list of available palettes includes: "on_the_night", "so_far_away"
+#'    "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits",
+#'    "on_every_street", "alchemy", "studio_99", "making_movies", "love_over_gold",
+#'    "roterdam", and "very_best".
 #'
-#' @param ... More arguments
+#' @param direction Sets the order of colors in the scale. If 1, the default, colors are order as appeared in the palette.
+#'    If -1, the order of colors is reversed.
+#'
+#' @param ... Other arguments passed on to the color scale functions.
 #'
 #' @return scale_color_direstraits
 #'

@@ -4,7 +4,7 @@
 \alias{scale_color_direstraits}
 \alias{scale_colour_direstraits}
 \alias{scale_fill_direstraits}
-\title{Color scales based on Dire Straits album covers}
+\title{Color scales functions for the Dire Straits}
 \usage{
 scale_color_direstraits(palette = "money_for_nothing", direction = 1, ...)
 
@@ -13,11 +13,17 @@ scale_colour_direstraits(palette = "money_for_nothing", direction = 1, ...)
 scale_fill_direstraits(palette = "money_for_nothing", direction = 1, ...)
 }
 \arguments{
-\item{palette}{Select a color palette from dire straits album covers}
+\item{palette}{The color palette from Dire Straits album covers.
 
-\item{direction}{Select the direction of the color order}
+   The list of available palettes includes: "on_the_night", "so_far_away"
+   "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits",
+   "on_every_street", "alchemy", "studio_99", "making_movies", "love_over_gold",
+   "roterdam", and "very_best".}
 
-\item{...}{More arguments}
+\item{direction}{Sets the order of colors in the scale. If 1, the default, colors are order as appeared in the palette.
+If -1, the order of colors is reversed.}
+
+\item{...}{Other arguments passed on to the color scale functions.}
 }
 \value{
 scale_color_direstraits
@@ -27,7 +33,7 @@ scale_colour_direstraits
 scale_fill_direstraits
 }
 \description{
-Color scales based on Dire Straits album covers.
+Color scales functions for the Dire Straits palettes.
 }
 \details{
 color palette from dire straits

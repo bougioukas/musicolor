@@ -1,10 +1,17 @@
 #' @title Dire Straits Palette
 #'
-#' @description Create a color palette from Dire Straits album covers
+#' @description It includes color palettes generated from the Dire Straits album covers.
+#'    It allows us to select one of the available palettes. The function returns a vector
+#'    with the hex codes of the selected palette.
 #'
-#' @param palette Select a color palette from dire straits album covers
+#' @param palette The name of color palette from Dire Straits album covers.
 #'
-#' @param ... More arguments
+#'    The list of available palettes includes: "on_the_night", "so_far_away"
+#'    "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits",
+#'    "on_every_street", "alchemy", "studio_99", "making_movies", "love_over_gold",
+#'    "roterdam", and "very_best".
+#'
+#' @param ... Other arguments passed on to the function.
 #'
 #' @return direstraits_palette
 #'

@@ -1,21 +1,17 @@
-#' @title Generate the palette
+#' @title A helper function generated for the Dire Straits Palette
 #'
-#' @description Create a color palette from Dire Straits album covers
+#' @description A helper function that will be used in the color scales.
 #'
-#' @param palette Select a color palette from dire straits album covers
+#' @param palette Select a color palette from Dire Straits album covers.
 #'
-#' @param direction Select the direction of the color order
-#'
-#' @param ... More arguments
+#' @param direction Select the direction of the color order.
 #'
 #' @return direstraits_palette_gen
 #'
 #' @export
 
 
-
-
-direstraits_palette_gen <- function(palette = "money_for_nothing", direction = 1, ...) {
+direstraits_palette_gen <- function(palette = "money_for_nothing", direction = 1) {
 
   function(n) {
 
