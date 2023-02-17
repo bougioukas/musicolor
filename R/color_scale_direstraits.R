@@ -1,6 +1,6 @@
-#' Create ggplot scale for color based on Dire Straits album covers
+#' Creates ggplot scale for color based on Dire Straits album covers
 #'
-#' Create ggplot scale color for Dire Straits.
+#' Creates ggplot scale color for Dire Straits.
 #'
 #' @param palette Select a color palette from dire straits album covers
 #'
