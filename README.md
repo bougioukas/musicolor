@@ -1,5 +1,5 @@
 # musicolor
-An R package with color scales to be used in ggplot generated from music album covers
+Color scales to be used in ggplot generated from music album covers
 
 
 ## Overview
