@@ -10,7 +10,7 @@ An R package with color scales to be used in ggplot generated from music album c
 
 ``` r
 # You can download the development version of the package from github:
-devtools::install_github('bougioukas/musicolor1')
+devtools::install_github('bougioukas/musicolor')
 ```
 
 
@@ -18,7 +18,7 @@ devtools::install_github('bougioukas/musicolor1')
 ## Example
 
 ``` r
-library(musicolor1)
+library(musicolor)
 
 
 ggplot2::ggplot(iris, ggplot2::aes(x = Sepal.Width, y = Sepal.Length, color = Species)) +
