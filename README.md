@@ -1,9 +1,9 @@
-# musicolor
-Color scales generated from music album covers ready to be used in ggplot visualizations
+# musicolor <img src="man/figures/logo.png" align="right" height="139" />
+
 
 
 ## Overview
-
+Color scales generated from music album covers ready to be used in ggplot visualizations
 
 
 ## Installation
