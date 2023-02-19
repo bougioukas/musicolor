@@ -2,17 +2,22 @@
 % Please edit documentation in R/show_colors.R
 \name{show_colors}
 \alias{show_colors}
-\title{Show the colors in a pelette}
+\title{Show the colors in a palette}
 \usage{
 show_colors(palette = "money_for_nothing", ...)
 }
 \arguments{
-\item{palette}{The color palette from album covers.
+\item{palette}{The color palette from the available list of palettes.
 
-   The list of available palettes includes: "on_the_night", "so_far_away"
+   The list of available palettes from album covers includes:
+
+   *Dire Straits*
+   "on_the_night", "so_far_away"
    "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits",
    "on_every_street", "alchemy", "studio_99", "making_movies", "love_over_gold",
-   "roterdam", and "very_best".}
+   "roterdam", and "very_best".
+
+   *Pink Floyd*}
 
 \item{...}{Other arguments passed on to the function.}
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/direstraits_palette.R
 \name{direstraits_palette}
 \alias{direstraits_palette}
-\title{Dire Straits Palette}
+\title{Color palettes from Dire Straits music band.}
 \usage{
 direstraits_palette(palette = "money_for_nothing", ...)
 }
@@ -20,7 +20,7 @@ direstraits_palette(palette = "money_for_nothing", ...)
 direstraits_palette
 }
 \description{
-It includes color palettes generated from the Dire Straits album covers.
+It includes color palettes from Dire Straits album covers.
    It allows us to select one of the available palettes. The function returns a vector
    with the hex codes of the selected palette.
 }

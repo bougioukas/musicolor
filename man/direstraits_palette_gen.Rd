@@ -2,7 +2,7 @@
 % Please edit documentation in R/direstraits_palette_gen.R
 \name{direstraits_palette_gen}
 \alias{direstraits_palette_gen}
-\title{A helper function generated for the Dire Straits Palette}
+\title{A helper function for the Dire Straits palettes}
 \usage{
 direstraits_palette_gen(palette = "money_for_nothing", direction = 1)
 }
@@ -16,5 +16,5 @@ If -1, the order of colors is reversed.}
 direstraits_palette_gen
 }
 \description{
-A helper function that is used in the color scales.
+A helper function that is used in the color scales for Dire Straits palettes.
 }

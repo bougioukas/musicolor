@@ -1,6 +1,6 @@
-#' @title A helper function generated for the Dire Straits Palette
+#' @title A helper function generated for the Dire Straits palettes
 #'
-#' @description A helper function that is used in the color scales.
+#' @description A helper function that is used in the color scales for Dire Straits palettes.
 #'
 #' @param palette The color palette from Dire Straits album covers.
 #'
