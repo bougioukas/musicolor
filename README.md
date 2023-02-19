@@ -23,7 +23,7 @@ devtools::install_github('bougioukas/musicolor')
 direstraits_palette("money_for_nothing")
 ```
 
-[1] "#0755B3" "#010201" "#DF47DD" "#109A99" "#EE6A16"
+[1] "#0755B3"   "#010201"   "#DF47DD"   "#109A99"   "#EE6A16"
 
 
 We can also see the colors using the seecol() function from the package {unikn}:
