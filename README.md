@@ -18,6 +18,9 @@ devtools::install_github('bougioukas/musicolor')
 
 **Colors from Dire Straits album covers**
 
+The list of available palettes includes: "on_the_night", "so_far_away", "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits", "on_every_street", "alchemy", "studio_99", "making_movies", "love_over_gold", "roterdam", and "very_best".
+
+
 ``` r
 library(musicolor)
 
