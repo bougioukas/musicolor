@@ -14,12 +14,15 @@ devtools::install_github('bougioukas/musicolor')
 ```
 
 
+## Color palettes
+
+**Dire Straits album covers**
+
 
 ## Example
 
 ``` r
 library(musicolor)
-
 
 ggplot2::ggplot(iris, ggplot2::aes(x = Sepal.Width, y = Sepal.Length, color = Species)) +
   ggplot2::geom_point(size = 5.0) +
