@@ -45,5 +45,8 @@ ggplot2::ggplot(iris, ggplot2::aes(x = Sepal.Width, y = Sepal.Length, color = Sp
   ggplot2::geom_point(size = 5.0) +
   scale_color_direstraits("money_for_nothing") +
   ggplot2::theme_minimal()
-  
 ```
+
+<img src="man/figures/ggplot-money_for_nothing.png" align="center" width="520" />
+
+
