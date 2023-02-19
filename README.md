@@ -16,7 +16,16 @@ devtools::install_github('bougioukas/musicolor')
 
 ## Color palettes
 
-**Dire Straits album covers**
+**Colors from Dire Straits album covers**
+
+``` r
+# Colors from Dire Straits album covers
+direstraits_palette()
+```
+"#0755B3" "#010201" "#DF47DD" "#109A99" "#EE6A16"
+
+<img src="man/figures/palette-money_for_nothing.png" align="center" width="620" />
+
 
 
 ## Example
