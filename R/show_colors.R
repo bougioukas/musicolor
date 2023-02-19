@@ -1,10 +1,8 @@
-#' @title Dire Straits Palette
+#' @title Show the colors in a pelette
 #'
-#' @description It includes color palettes generated from the Dire Straits album covers.
-#'    It allows us to select one of the available palettes. The function returns a vector
-#'    with the hex codes of the selected palette.
+#' @description The function returns a plot with the colors and the corresponding hex codes.
 #'
-#' @param palette The color palette from Dire Straits album covers.
+#' @param palette The color palette from album covers.
 #'
 #'    The list of available palettes includes: "on_the_night", "so_far_away"
 #'    "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits",
@@ -13,14 +11,13 @@
 #'
 #' @param ... Other arguments passed on to the function.
 #'
-#' @return direstraits_palette
+#' @return show_colors
 #'
 #' @export
 
+show_colors <- function(palette = "money_for_nothing", ...) {
 
-direstraits_palette <- function(palette = "money_for_nothing", ...) {
-
-  direstraits_palettes <- list(
+  album_palettes <- list(
 
     `on_the_night` = c("#105793",  "#DF820F"),
 
@@ -52,7 +49,10 @@ direstraits_palette <- function(palette = "money_for_nothing", ...) {
   )
 
 
-  direstraits_palettes[[palette]]
+  scales::show_col(album_palettes[[palette]], ncol= length(album_palettes[[palette]]))
 
 }
+
+
+
 
