@@ -19,11 +19,19 @@ devtools::install_github('bougioukas/musicolor')
 **Colors from Dire Straits album covers**
 
 ``` r
-# Colors from Dire Straits album covers
-direstraits_palette()
+# Hex code colors from the "Money for Nothing" album cover
+direstraits_palette("money_for_nothing")
 ```
-"#0755B3" "#010201" "#DF47DD" "#109A99" "#EE6A16"
 
+[1] "#0755B3" "#010201" "#DF47DD" "#109A99" "#EE6A16"
+
+
+We can also see the colors using the seecol() function from the package {unikn}:
+
+``` r
+# see the colors from the "Money for Nothing" album cover
+unikn::seecol(direstraits_palette("money_for_nothing"))
+```
 <img src="man/figures/palette-money_for_nothing.png" align="center" width="420" />
 
 
@@ -35,7 +43,7 @@ library(musicolor)
 
 ggplot2::ggplot(iris, ggplot2::aes(x = Sepal.Width, y = Sepal.Length, color = Species)) +
   ggplot2::geom_point(size = 5.0) +
-  scale_color_direstraits("so_far_away") +
+  scale_color_direstraits("money_for_nothing") +
   ggplot2::theme_minimal()
   
 ```
