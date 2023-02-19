@@ -23,7 +23,7 @@ devtools::install_github('bougioukas/musicolor')
 direstraits_palette("money_for_nothing")
 ```
 
-[1] "#0755B3" "#010201" "#DF47DD" "#109A99" "#EE6A16"
+[1] "#0755B3"   "#010201"   "#DF47DD"   "#109A99"   "#EE6A16"
 
 
 We can also see the colors using the seecol() function from the package {unikn}:
@@ -38,6 +38,8 @@ unikn::seecol(direstraits_palette("money_for_nothing"))
 
 ## Example
 
+**scale_color_direstraits()**
+
 ``` r
 library(musicolor)
 
@@ -45,5 +47,8 @@ ggplot2::ggplot(iris, ggplot2::aes(x = Sepal.Width, y = Sepal.Length, color = Sp
   ggplot2::geom_point(size = 5.0) +
   scale_color_direstraits("money_for_nothing") +
   ggplot2::theme_minimal()
-  
 ```
+
+<img src="man/figures/ggplot-money_for_nothing.png" align="center" width="520" />
+
+
