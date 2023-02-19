@@ -24,7 +24,7 @@ direstraits_palette()
 ```
 "#0755B3" "#010201" "#DF47DD" "#109A99" "#EE6A16"
 
-<img src="man/figures/palette-money_for_nothing.png" align="center" width="620" />
+<img src="man/figures/palette-money_for_nothing.PNG" align="center" width="620" />
 
 
 
