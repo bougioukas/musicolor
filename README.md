@@ -1,4 +1,4 @@
-# musicolor <img src="man/figures/logo.png" align="right" height="139" />
+# musicolor <img src="man/figures/logo.jpg" align="right" height="139" />
 
 
 
