@@ -19,6 +19,8 @@ devtools::install_github('bougioukas/musicolor')
 **Colors from Dire Straits album covers**
 
 ``` r
+library(musicolor)
+
 # Hex code colors from the "Money for Nothing" album cover
 direstraits_palette("money_for_nothing")
 ```
@@ -26,11 +28,11 @@ direstraits_palette("money_for_nothing")
 [1] "#0755B3"   "#010201"   "#DF47DD"   "#109A99"   "#EE6A16"
 
 
-We can also see the colors using the seecol() function from the package {unikn}:
+We can also see the colors using the show_colors() function:
 
 ``` r
-# see the colors from the "Money for Nothing" album cover
-unikn::seecol(direstraits_palette("money_for_nothing"))
+# see the colors for the "Money for Nothing" album cover
+show_colors("money_for_nothing")
 ```
 <img src="man/figures/palette-money_for_nothing.png" align="center" width="420" />
 
