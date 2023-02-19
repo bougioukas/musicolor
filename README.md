@@ -38,6 +38,8 @@ unikn::seecol(direstraits_palette("money_for_nothing"))
 
 ## Example
 
+**scale_color_direstraits()**
+
 ``` r
 library(musicolor)
 
