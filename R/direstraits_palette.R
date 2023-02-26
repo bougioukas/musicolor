@@ -1,4 +1,4 @@
-#' @title Color palettes from Dire Straits music band.
+#' @title Discrete color palettes from Dire Straits music band.
 #'
 #' @description It includes color palettes from Dire Straits album covers.
 #'    It allows us to select one of the available palettes. The function returns a vector

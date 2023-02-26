@@ -2,7 +2,7 @@
 % Please edit documentation in R/direstraits_palette_gen.R
 \name{direstraits_palette_gen}
 \alias{direstraits_palette_gen}
-\title{A helper function for the Dire Straits palettes}
+\title{A helper function generated for the Dire Straits palettes}
 \usage{
 direstraits_palette_gen(palette = "money_for_nothing", direction = 1)
 }

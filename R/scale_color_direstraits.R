@@ -1,6 +1,6 @@
 #' Color scales functions for the Dire Straits
 #'
-#' Color scales functions for the Dire Straits palettes.
+#' Discrete color scales functions for the Dire Straits palettes.
 #'
 #' @param palette The color palette from Dire Straits album covers.
 #'

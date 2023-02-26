@@ -33,7 +33,7 @@ scale_colour_direstraits
 scale_fill_direstraits
 }
 \description{
-Color scales functions for the Dire Straits palettes.
+Discrete color scales functions for the Dire Straits palettes.
 }
 \details{
 color palette from dire straits

@@ -2,7 +2,7 @@
 % Please edit documentation in R/direstraits_palette.R
 \name{direstraits_palette}
 \alias{direstraits_palette}
-\title{Color palettes from Dire Straits music band.}
+\title{Discrete color palettes from Dire Straits music band.}
 \usage{
 direstraits_palette(palette = "money_for_nothing", ...)
 }
