@@ -16,15 +16,14 @@ direstraits_palette_gen <- function(palette = "money_for_nothing", direction = 1
 
   `%notin%` <- Negate(`%in%`)
 
-  if (direction %notin% c(1, -1)) {
-    stop("Direction not valid. Please, use 1 for standard palette or -1 for reversed palette.")
-  }
+  if (direction %notin% c(1, -1))
+    stop("Not a valid palette name and/or direction value (please, use direction = 1 for standard palette or direction = -1 for reversed palette).")
 
 
   function(n) {
 
     if (n > length(direstraits_palette(palette)))
-      warning("Not enough colors in this palette! Please, select another palette.")
+      stop("Not a valid palette name and/or not enough colors in the palette!")
 
     else {
 
