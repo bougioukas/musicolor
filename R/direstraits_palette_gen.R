@@ -14,10 +14,17 @@
 
 direstraits_palette_gen <- function(palette = "money_for_nothing", direction = 1) {
 
+  `%notin%` <- Negate(`%in%`)
+
+  if (direction %notin% c(1, -1)) {
+    stop("Direction not valid. Please, use 1 for standard palette or -1 for reversed palette.")
+  }
+
+
   function(n) {
 
     if (n > length(direstraits_palette(palette)))
-      warning("Not enough colors in this palette!")
+      warning("Not enough colors in this palette! Please, select another palette.")
 
     else {
 
@@ -25,7 +32,7 @@ direstraits_palette_gen <- function(palette = "money_for_nothing", direction = 1
 
       all_colors <- unname(unlist(all_colors))
 
-      all_colors <- if (direction >= 0) all_colors else rev(all_colors)
+      all_colors <- if (direction == 1) all_colors else rev(all_colors)
 
       color_list <- all_colors[1:n]
 
