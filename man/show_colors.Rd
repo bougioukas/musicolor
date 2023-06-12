@@ -12,12 +12,20 @@ show_colors(palette = "money_for_nothing", ...)
    The list of available palettes from album covers includes:
 
    *Dire Straits*
-   "on_the_night", "so_far_away"
-   "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits",
-   "on_every_street", "alchemy", "studio_99", "making_movies", "love_over_gold",
-   "roterdam", and "very_best".
+   "on_the_night", "so_far_away" "brothers_in_arms", "communique",
+   "money_for_nothing" (default), "dire_straits", "on_every_street", "alchemy",
+   "studio_99", "making_movies", "love_over_gold", "roterdam", and "very_best".
 
-   *Pink Floyd*}
+   *Pink Floyd*
+   "echoes", "the_final_cut", "division_bell", "animals", "wish_you_were_here" (default),
+   "momentary_lapse_Of_reason", "meddle", "atom_heart_mother", "more", "endless_river".
+
+
+   *mix*
+   "estacion_mexico" (manu chao), "radio_remba" (manu chao), "auberge" (Chris Rea),
+   "best_cris_rea1994" (Chris Rea), "best_cris_rea2009" (Chris Rea), "one_fine_day" (Chris Rea),
+   "saudade" (Thievery Corporation), "richest_man_in_babylon" (Thievery Corporation),
+   "treasures" (Thievery Corporation), "industrial_silence" (madrugada), "grit" (madrugada), "inevitable_end" (royksopp).}
 
 \item{...}{Other arguments passed on to the function.}
 }

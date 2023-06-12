@@ -21,6 +21,16 @@ devtools::install_github('bougioukas/musicolor')
 The list of available palettes includes: "on_the_night", "so_far_away", "brothers_in_arms", "communique", "money_for_nothing" (default), "dire_straits", "on_every_street", "alchemy", "studio_99", "making_movies", "love_over_gold", "roterdam", and "very_best".
 
 
+**Discrete colors from Pink Floyd album covers**
+
+The list of available palettes includes: "echoes", "the_final_cut", "division_bell", "animals", "wish_you_were_here" (default), "momentary_lapse_Of_reason", "meddle", "atom_heart_mother", "more", "endless_river".
+
+
+**Discrete colors from a number of different album covers**
+
+The list of available palettes includes: "estacion_mexico" (manu chao), "radio_remba" (manu chao), "auberge" (Chris Rea), "best_cris_rea1994" (Chris Rea), "best_cris_rea2009" (Chris Rea), "one_fine_day" (Chris Rea), "saudade" (Thievery Corporation), "richest_man_in_babylon" (Thievery Corporation), "treasures" (Thievery Corporation), "industrial_silence" (madrugada), "grit" (madrugada), "inevitable_end" (royksopp).
+
+
 ``` r
 library(musicolor)
 
