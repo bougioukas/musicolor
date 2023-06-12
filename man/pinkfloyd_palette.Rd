@@ -10,7 +10,7 @@ pinkfloyd_palette(palette = "wish_you_were_here", ...)
 \item{palette}{The color palette from Pink Floyd album covers.
 
    The list of available palettes includes: "echoes", "the_final_cut", "division_bell",
-   "animals", "wish_you_were_here" (default), "momentary_lapse_Of_reason", "meddle", "atom_heart_mother",
+   "animals", "wish_you_were_here" (default), "momentary_lapse_of_reason", "meddle", "atom_heart_mother",
    "more", "endless_river".}
 
 \item{...}{Other arguments passed on to the function.}

@@ -23,7 +23,7 @@ The list of available palettes includes: "on_the_night", "so_far_away", "brother
 
 **Discrete colors from Pink Floyd album covers**
 
-The list of available palettes includes: "echoes", "the_final_cut", "division_bell", "animals", "wish_you_were_here" (default), "momentary_lapse_Of_reason", "meddle", "atom_heart_mother", "more", "endless_river".
+The list of available palettes includes: "echoes", "the_final_cut", "division_bell", "animals", "wish_you_were_here" (default), "momentary_lapse_of_reason", "meddle", "atom_heart_mother", "more", "endless_river".
 
 
 **Discrete colors from a number of different album covers**

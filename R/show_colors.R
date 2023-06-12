@@ -73,7 +73,7 @@ show_colors <- function(palette = "money_for_nothing", ...) {
 
     `wish_you_were_here` = c("#F9EDCF", "#B6BEC3", "#9EC4E9", "#D0C1B4", "#717274", "#382B2C"),
 
-    `momentary_lapse_Of_reason` = c("#9888A4", "#69626F","#5F533B", "#B09B6D", "#DABE92", "#E6DED1"),
+    `momentary_lapse_of_reason` = c("#9888A4", "#69626F","#5F533B", "#B09B6D", "#DABE92", "#E6DED1"),
 
     `meddle` = c("#553338", "#30A3B8"),
 
