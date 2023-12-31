@@ -9,7 +9,8 @@
 #'    The list of available palettes includes: "estacion_mexico" (manu chao), "radio_remba" (manu chao; default),
 #'    "auberge" (Chris Rea), "best_cris_rea1994" (Chris Rea), "best_cris_rea2009" (Chris Rea),
 #'    "one_fine_day" (Chris Rea), "saudade" (Thievery Corporation), "richest_man_in_babylon" (Thievery Corporation),
-#'    "treasures" (Thievery Corporation), "industrial_silence" (madrugada), "grit" (madrugada), "inevitable_end" (royksopp).
+#'    "treasures" (Thievery Corporation), "industrial_silence" (madrugada), "grit" (madrugada), "inevitable_end" (royksopp),
+#'    "two_wink00" (2wink), "two_wink02" (2wink), "two_wink06" (2wink), "two_wink14" (2wink).
 #'
 #' @param ... Other arguments passed on to the function.
 #'
@@ -46,7 +47,16 @@ mix_palette <- function(palette = "radio_remba", ...) {
 
     `inevitable_end` = c("#801AC9", "#E04F61", "#CB59B0", "#F5A84B", "#B44B7B", "#2F2B2F","#FAF8F9"),  # royksopp
 
-    `the_understanding` = c("#471D0A", "#624E3A", "#7A6D5D", "#9AA09A", "#C1CCC9", "#E8E6E1")  # royksopp
+    `the_understanding` = c("#471D0A", "#624E3A", "#7A6D5D", "#9AA09A", "#C1CCC9", "#E8E6E1"),  # royksopp
+
+    `two_wink00` = c("#0F299E", "#C72A9D", "#387BCC", "#C8342A", "#61364E"), # 2wink
+
+    `two_wink02` = c("#C01C69", "#5B454F", "#248789", "#D66892", "#E5BCBA"),  # 2wink
+
+    `two_wink06` = c("#EDBE3F", "#4A3B31", "#72437B", "#C96A32", "#488CA5"),  # 2wink
+
+    `two_wink14` = c("#212F56", "#BA4432", "#F7BE06", "#96B1C0", "#6B4644")  # 2wink
+
 
   )
 

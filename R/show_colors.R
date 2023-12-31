@@ -110,8 +110,15 @@ show_colors <- function(palette = "money_for_nothing", ...) {
 
     `inevitable_end` = c("#801AC9", "#E04F61", "#CB59B0", "#F5A84B", "#B44B7B", "#2F2B2F", "#FAF8F9"),  # royksopp
 
-    `the_understanding` = c("#471D0A", "#624E3A", "#7A6D5D", "#9AA09A", "#C1CCC9", "#E8E6E1")  # royksopp
+    `the_understanding` = c("#471D0A", "#624E3A", "#7A6D5D", "#9AA09A", "#C1CCC9", "#E8E6E1"),  # royksopp
 
+    `two_wink00` = c("#0F299E", "#C72A9D", "#387BCC", "#C8342A", "#61364E"), # 2wink
+
+    `two_wink02` = c("#C01C69", "#5B454F", "#248789", "#D66892", "#E5BCBA"),  # 2wink
+
+    `two_wink06` = c("#EDBE3F", "#4A3B31", "#72437B", "#C96A32", "#488CA5"),  # 2wink
+
+    `two_wink14` = c("#212F56", "#BA4432", "#F7BE06", "#96B1C0", "#6B4644")  # 2wink
 
   )
 

@@ -12,7 +12,8 @@ mix_palette(palette = "radio_remba", ...)
    The list of available palettes includes: "estacion_mexico" (manu chao), "radio_remba" (manu chao; default),
    "auberge" (Chris Rea), "best_cris_rea1994" (Chris Rea), "best_cris_rea2009" (Chris Rea),
    "one_fine_day" (Chris Rea), "saudade" (Thievery Corporation), "richest_man_in_babylon" (Thievery Corporation),
-   "treasures" (Thievery Corporation), "industrial_silence" (madrugada), "grit" (madrugada), "inevitable_end" (royksopp).}
+   "treasures" (Thievery Corporation), "industrial_silence" (madrugada), "grit" (madrugada), "inevitable_end" (royksopp),
+   "two_wink00" (2wink), "two_wink02" (2wink), "two_wink06" (2wink), "two_wink14" (2wink).}
 
 \item{...}{Other arguments passed on to the function.}
 }
